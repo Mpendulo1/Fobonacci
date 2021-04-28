@@ -1,6 +1,6 @@
 # define your function
-def fibonacci(n):   
-  # 
+def fibonacci(n):
+  #
   if n <= 1:
     return n
   else:
@@ -14,4 +14,4 @@ else:
   print('Fibonacci Seq: ')
 # looping through the n range
 for i in range(terms_1):
-    print(fibonacci(i))
+    print(fibonacci(i), end="" )
